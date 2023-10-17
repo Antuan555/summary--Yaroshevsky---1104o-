@@ -25,7 +25,7 @@ header{
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.8em;
 }
-img.header{
+img.header-img{
 	width: 50px;
 	height: 50px;
 }
@@ -56,21 +56,53 @@ div.block:hover{
 img.block{
 	max-block-size: 20%;
 }
-.blue{
-	background: blue;
+.gradient-cyan{
+	background: linear-gradient(45deg,#0cc5ce, #81b211) ;
 }
-.green{
-	background: green;
+.gradient-blue{
+	background: linear-gradient(45deg,#2b1694, #0cc5ce);
 }
-.purple{
-	background: purple;
+.dark-purple{
+	background: linear-gradient(45deg,#5d0c34, #2b1694);
 }
-.red{
-	background: red;
+.orange-red{
+	background: linear-gradient(45deg,#ff4a13, #5d0c34);
 }
-.yellow{
-	background: yellow;
+.yellow-orange{
+	background: linear-gradient(45deg,#ffab35, #ff4a13);
 }
 a{
 	text-decoration: none;
+}
+a.text-orange:hover{
+	color: orange;
+}
+a.text-green:hover{
+	color: #16cc26;
+}
+a.text-red:hover{
+	color: red;
+}
+a.text-blue:hover{
+	color: purple;
+}
+a.text-yellow:hover{
+	color: yellow;
+}
+footer{
+	height: 50px;
+	background: yellowgreen;
+	font-size: 0.7em;
+	text-align: center;
+}
+.footer{
+margin: 0 auto;
+width: 100%;
+}
+span{
+	position: absolute;
+	right: 0px;
+}
+.footer-png{
+	block-size: 0.7em;
 }
