@@ -99,7 +99,7 @@ footer{
 margin: 0 auto;
 width: 100%;
 }
-span{
+span.footer-span{
 	position: absolute;
 	right: 0px;
 }
